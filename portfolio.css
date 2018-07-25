@@ -16,30 +16,46 @@ background: white;
 }
 
 
-nav ul li  {
+#navbar ul li  {
  display: inline-block;
  font-size: 0.9em;
 }
 
-nav ul li a {
+#navbar ul li a {
  text-decoration: none;
  padding: 20px;
  color: white;
  width: 100%;
 }
 
-nav ul li a:last-of-type{
+#navbar ul li a:last-of-type{
 
 margin-right: 20px;
 
 }
 
-nav ul li a:hover {
+#navbar ul li a:hover {
   background: #FFDD00;
   color:black;
   border-bottom: solid 2px black;
 }
 
+
+
+@media screen and (max-width: 400px){
+
+    #navbar {
+        width: 100%
+
+    }
+
+    #navbar ul  {
+       
+       width: 100%
+}
+
+
+}
 
 #welcome-section{
 
@@ -82,6 +98,12 @@ background: slateblue;
 
 }
 
+.profile-link{
+
+    text-decoration: none;
+    color: black;
+}
+
 
 .container {
     padding: 2px 16px;
@@ -91,6 +113,8 @@ background: slateblue;
 
    width: 100%;
 }
+
+
 
 
 #contact{
